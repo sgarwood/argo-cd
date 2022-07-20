@@ -117,7 +117,7 @@ Using the UI:
 
 > earlier than v1.2
 
-The Argo CD UI don't support configuring SSH credentials. The SSH credentials can only be configured using the Argo CD CLI:
+The Argo CD UI doesn't support configuring SSH credentials. The SSH credentials can only be configured using the Argo CD CLI:
 
 ```
 argocd repo add git@github.com:argoproj/argocd-example-apps.git --ssh-private-key-path ~/.ssh/id_rsa
